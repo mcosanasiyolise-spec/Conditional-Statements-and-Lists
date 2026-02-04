@@ -1,28 +1,11 @@
- import turtle
+number = int(input("Enter Number to Check"))
+print("Number to be checked :", number)
 
- turtle.Screen().bgcolor("Green")
+if number>0:
+    print("This is positive number")
 
- board = turtle.Turtle()
+elif number<0:
+    print("This is negiive number")
 
- # Triangle
-  board.foward(100)
-
-  board.left(120)
-  board.foward(100)
-
-  board.left(120)
-  board.foward(100)
-
-
-  #Square
-  board.foward(100)
-  board.left(90)
-
-  board.foward(100)
-  board.left(90)
-
-  board.foward(100)
-  board.left(90)
-
-board.foward(100)
-  board.left(90)
+else:
+    print("This is neutral")
